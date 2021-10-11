@@ -1,0 +1,42 @@
+.profile-page
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.profile-page .title
+{
+    margin: 3%;
+}
+
+.profile-page .content
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center ;
+
+    width: 250px;
+    align-self: center;
+}
+
+.profile-page .content > div,
+.profile-page .content > span,
+.profile-page .content > form,
+.profile-page .content > a
+{
+    align-self: center;
+    margin-top: 0.5rem;
+}
+
+.profile-page .content a
+{
+    text-decoration: none;
+}
+
+.profile-page .content a:last-child
+{
+    margin-bottom: 2rem;
+}
+

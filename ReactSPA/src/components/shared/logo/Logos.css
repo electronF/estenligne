@@ -1,0 +1,41 @@
+.vertical-logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.vertical-logo-image{
+    width: 84.71px;
+    height: 64.57px;
+    margin-bottom: 0.2rem;
+}
+
+.vertical-logo-title{
+    font-family: 'Imstory', 'Roboto', 'Segeo UI', serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+
+.horizontal-logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+    align-self: center;
+}
+
+.horizontal-logo-image{
+    align-self: center;
+    width: 60px;
+    height: 45px;
+    margin-right: 1rem;
+}
+
+.horizontal-logo-title{
+    align-self: center;
+    font-family: 'Imstory', 'Roboto', 'Segeo UI', serif;
+    font-size: 24px;
+    font-weight: 400;
+}

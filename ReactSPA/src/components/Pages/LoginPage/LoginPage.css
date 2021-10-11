@@ -1,0 +1,35 @@
+.login-page
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.login-page .title
+{
+    margin: 3% 0% 0% 3%;
+}
+
+.login-page .content
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 250px;
+    align-self: center;
+}
+
+.login-page .content > div,
+.login-page .content > span,
+.login-page .content > form,
+.login-page .content > a
+{
+    margin-top: 0.5rem;
+}
+
+.login-page .content a
+{
+    text-decoration: none;
+}
+

@@ -1,0 +1,16 @@
+{
+    "firebaseConfig" : {
+    "apiKey": "AIzaSyBZsYMP0JCT5qYXAf-ptlEWnTVXW2CPhv4",
+  
+    "authDomain": "rhyscitlema-chatonline.firebaseapp.com",
+  
+    "projectId": "rhyscitlema-chatonline",
+  
+    "storageBucket": "rhyscitlema-chatonline.appspot.com",
+  
+    "messagingSenderId": "310036780903",
+  
+    "appId": "1:310036780903:web:e65c228dc6a65173bd41c2"
+    },
+    "VAPID":"BG4pkThZ2TFPxmpZ7mv9cMFGEBGCtZt6YRGlPLiY3bs68P8MAfGmNhQj4dOffW1vLEGu2Doqhmqxn_lqRolDWYU"
+  }

@@ -1,0 +1,30 @@
+.footer{
+    min-height: 32px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    padding: 5px 10px;
+    font-size: 1em;
+    color: white;
+
+    position: relative;
+    bottom: 0;
+    z-index: 150;
+    
+    width: 100%;
+    white-space: nowrap;  
+}
+
+.footer .legal-information
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.footer .legal-information span
+{
+    margin-right: 1rem;
+}

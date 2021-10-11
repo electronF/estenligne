@@ -1,0 +1,91 @@
+.media-item
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 98%;
+    color: white;
+    background-color: rgb(50, 50, 50);
+    
+    border: 2px solid rgb(20, 20, 20);
+    margin: 2px;
+}
+
+.media-item .media-item-miniature
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    position: relative;
+
+    background-color: rgb(80, 80, 80);
+}
+
+.media-item .media-item-miniature img:first-child
+{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+.media-item .media-item-miniature img:last-child
+{
+    width: 100px;
+    height: 80px;
+}
+
+.media-item .media-item-information
+{
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    height: 100%;
+    width: 0%;
+    flex: 1 0 auto;
+}
+
+.media-item .media-item-information div
+{
+    height: 50%;
+}
+
+.media-item .media-item-information div:first-child span
+{
+    font-size: .8em;
+    padding: .5em;
+}
+
+.media-item .media-item-information div:last-child
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.media-item .media-item-information div:last-child span
+{
+    font-size: .6em;
+    width: 50%;
+}
+
+.media-item .media-item-delete
+{
+    width: 50px;
+    height: 50px;
+    flex: 1 0 auto;
+    display: flex;
+    background-color: rgb(50, 50, 50);
+    align-self: center;
+}
+
+.media-item .media-item-delete img
+{
+    display: flex;
+    align-self: center;
+    margin: auto;
+    width: 20px;
+    height: 20px;
+}

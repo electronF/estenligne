@@ -1,0 +1,10 @@
+.list-conversation
+{
+    width: 100%;
+    height: auto;
+}
+
+.selected-conversation
+{
+    background: #d8effe;
+}

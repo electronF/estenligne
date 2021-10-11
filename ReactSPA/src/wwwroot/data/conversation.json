@@ -1,0 +1,46 @@
+[
+    {
+        "image": "person.png",
+        "category": "person",
+        "name": "Yemelitc(Yemeli Cyrille Tasse)",
+        "datetime": "11:25",
+        "unreads": 0,
+        "message": "Actually I am working on push notification.\nSo, You can work on local push notification",
+        "state": "send",
+        "email": "yemelitc@gmail.com",
+        "id": 1
+    },
+    {
+        "image": "people.png",
+        "category": "group",
+        "name": "EstEnLigne",
+        "unreads": 230,
+        "datetime": "11:03",
+        "message": "Yemelitc: I will notify later",
+        "state": "unread",
+        "email": "estenligne@estenligne.com",
+        "id": 2
+    },
+    {
+        "image": "person.png",
+        "category": "person",
+        "name": "G",
+        "datetime": "Hier",
+        "unreads": 0,
+        "message": "Yes! I've few millions for it. I love You too. Now I will start working. Have a good day!",
+        "state": "send",
+        "email": "hawaoumarou@gmail.com",
+        "id": 3
+    },
+    {
+        "image": "person.png",
+        "category": "person",
+        "name": "Dario G La Tonia",
+        "datetime": "Hier",
+        "unreads": 0,
+        "message": "I just end the task. my bank also inform about incoming transaction so i received the money.\nThanks!\nLets move to another task",
+        "state": "received",
+        "email": "dariogattuso@techdgiteasy.it",
+        "id": 4
+    }
+]

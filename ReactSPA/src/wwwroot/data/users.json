@@ -1,0 +1,82 @@
+[
+    {
+        "email":"untester001@gmail.com",
+        "phoneNumber": "",
+        "id":6,
+        "name":"Un Tesert",
+        "category": "person",
+        "image": ""
+    },
+    {
+        "email": "hawaoumarou@gmail.com",
+        "phoneNumber": "",
+        "id": 3,
+        "name": "G",
+        "category": "person",
+        "image": ""
+    },
+    {
+        "email": "dariogattuso@techdgiteasy.it",
+        "phoneNumber": "",
+        "id": 4,
+        "name": "Dario G La Tonia",
+        "category": "person",
+        "image": ""
+    },
+    {
+        "email": "yemelitc@gmail.com",
+        "phoneNumber": "",
+        "id":1,
+        "name": "Yemelitc(Yemeli Cyrille Tasse)",
+        "category": "person",
+        "image": ""
+    },
+    {
+        "email": "estenligne@estenligne.com",
+        "phoneNumber": "",
+        "id": 2,
+        "name": "EstEnLigne",
+        "category": "group",
+        "image": ""
+    },
+    {
+        "email": "bertrandovide@hotmail.com",
+        "phoneNumber": "+237697927160",
+        "id": 5,
+        "name": "Ovide Bertrand",
+        "category": "person",
+        "image": ""
+    },
+    {
+        "email": "cedricnguendap@gmail.com",
+        "phoneNumber": "",
+        "id": 6,
+        "name": "Cedric Nguendap",
+        "category": "person",
+        "image": ""
+    },
+    {
+        "email": "dinalettd@gmail.com",
+        "phoneNumber": "",
+        "id": 7,
+        "name": "Dinale Tchinda Takoubo",
+        "category": "person",
+        "image": ""
+    },
+    {
+        "email": "rostandr@gmail.com",
+        "phoneNumber": "",
+        "id": 8,
+        "name": "Rostand Tchouakam",
+        "category": "person",
+        "image": ""
+    },
+    {
+        "email": "challenge@estenligne.com",
+        "phoneNumber": "",
+        "id": 9,
+        "name": "Challenge",
+        "category": "person",
+        "image": ""
+    }
+]

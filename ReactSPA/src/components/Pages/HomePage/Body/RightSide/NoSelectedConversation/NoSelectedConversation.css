@@ -1,0 +1,12 @@
+.no-selected-conversation{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    align-items: center;
+    align-self: center;
+}
+
+.no-selected-conversation span{
+    margin-top: 1rem;
+}

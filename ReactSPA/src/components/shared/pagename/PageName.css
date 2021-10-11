@@ -1,0 +1,12 @@
+.page-tile{
+    padding: 5px 30px;
+    
+    color: #ffffff;
+    background-color: black;
+    font-size: 2em;
+    font-stretch: condensed;
+    font-weight: 400;
+    text-align: center;
+
+    align-self: flex-start;
+}

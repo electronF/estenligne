@@ -1,0 +1,41 @@
+.register-page
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.register-page .title
+{
+    margin: 3%;
+}
+
+.register-page .content
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center ;
+
+    width: 250px;
+    align-self: center;
+}
+
+.register-page .content > div,
+.register-page .content > span,
+.register-page .content > form,
+.register-page .content > a
+{
+    margin-top: 0.5rem;
+}
+
+.register-page .content a
+{
+    text-decoration: none;
+}
+
+.register-page .content a:last-child
+{
+    margin-bottom: 2rem;
+}
+

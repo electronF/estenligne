@@ -1,0 +1,39 @@
+.transfered-message
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    padding: .2em .5em 0 .5em
+}
+
+.transfered-message > div
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: .15em;
+    width: 90%;
+    background-color: rgba(0, 0, 0, .1);
+}
+
+.transfered-message > div img
+{
+    width: 15px;
+    height: 15px;
+    align-self: center;
+}
+
+.transfered-message > div span
+{
+    padding: .25em .5em;
+    font-size: .75em;
+}
+
+.transfered-message > span
+{
+    margin-top: 5px;
+    font-size: .85em;
+}
+
+

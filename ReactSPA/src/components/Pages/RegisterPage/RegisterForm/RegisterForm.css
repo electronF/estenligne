@@ -1,0 +1,11 @@
+.register-form
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.register-form > div
+{
+    margin-top: 0.25em;
+}

@@ -1,0 +1,214 @@
+.send-message-bar 
+{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+.send-message-bar .description-bar
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    padding: .5em;
+    background-color: rgba(50, 50, 50, .7);
+}
+
+.send-message-bar .description-bar > div
+{
+    background-color: rgba(255, 255, 255, .1);
+    flex: 1 0 auto;
+    width: 0%;
+    margin-left: 5%;
+}
+
+.send-message-bar .description-bar > img
+{
+    margin: auto .9em;
+    color: white;
+    width: 25px;
+    height: 25px;
+    opacity: .6;
+    cursor: default;
+}
+
+.send-message-bar .description-bar > img:hover
+{
+    opacity: 1;
+}
+
+.send-message-bar .sending-bar
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+
+    width: 100%;
+    height: 60px;
+    padding: 10px 1rem;
+}
+
+.send-message-bar .sending-bar > div
+{
+    display: flex;
+    margin-left: 2rem;
+}
+
+.send-message-bar .message-camera,
+.send-message-bar .message-smiley,
+.send-message-bar .message-attach-files,
+.send-message-bar .message-record
+{
+    height: 100%;
+}
+
+
+.send-message-bar .message-camera > img,
+.send-message-bar .message-smiley img,
+.send-message-bar .message-attach-files img,
+.send-message-bar .message-record img
+{
+    margin:auto;
+    height: 80%;
+    border-radius: 45%;
+    align-self: center;
+}
+
+.send-message-bar .message-camera > img:hover,
+.send-message-bar .message-smiley img:hover,
+.send-message-bar .message-attach-files img:hover,
+.send-message-bar .message-record img:hover
+{
+    padding: 5px;
+    border: 2px solid white;
+}
+
+.send-message-bar .message-form
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-self: center;
+    height: 100%;
+
+    width: 80%;
+    box-sizing: border-box;
+}
+
+.send-message-bar .message-form textarea
+{
+    align-self: center;
+    padding: .0 1em;
+    box-sizing: border-box;
+    border-radius: 13px;
+    border-style: solid;
+
+    max-height: 100%;
+    min-height: 100%;
+}
+
+@media screen and (min-width: 1025px) {
+    .send-message-bar .message-form textarea
+    {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .send-message-bar .message-form textarea
+    {
+        width: 85%;
+    }
+}
+
+.send-message-bar .message-form button
+{
+    align-self: center;
+    height: 80%;
+    border-radius: 45%; 
+    border: none;
+    background-color: black;
+    margin-left: 1.2em;
+}
+
+.send-message-bar .message-form button:hover
+{
+    border: 2px solid white;
+    padding: 0.15em 0 0 0.25em;
+    background-color: rgba(20, 20, 20, 1);
+    transition: all ease-in;
+}
+
+.send-message-bar .message-form img
+{
+    height: 100%;
+}
+
+.send-message-bar .message-camera
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    align-self: center;
+}
+
+.send-message-bar .message-camera .camera-list-option
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    border-radius: .5em;
+    background-color: white;
+    box-shadow: 0 0 4px 2px gray;
+    position: absolute;
+    width: 130px;
+    top: -80px;
+}
+
+.send-message-bar .message-camera .camera-list-option .camera-option
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+    padding: .5em;
+    cursor: default;
+}
+
+.send-message-bar .message-camera .camera-list-option .camera-option:first-child
+{
+    border-radius: .5em .5em 0 0;
+}
+
+.send-message-bar .message-camera .camera-list-option .camera-option:last-child
+{
+    border-radius: 0 0 .5em .5em;
+}
+
+.send-message-bar .message-camera .camera-list-option .camera-option:hover
+{
+    background-color: rgb(230, 230, 230);
+}
+
+.send-message-bar .message-camera .camera-list-option .camera-option img
+{
+    width: 20px;
+    height: 20px;
+    margin: auto;
+}
+
+.send-message-bar .message-camera .camera-list-option .camera-option span
+{
+    font-size: .9em;
+    color: black;
+    margin: auto;
+    position: relative;
+    top: 3px;
+    cursor: default;
+}

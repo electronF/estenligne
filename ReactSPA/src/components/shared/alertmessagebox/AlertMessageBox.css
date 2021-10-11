@@ -1,0 +1,15 @@
+#alert-box-message
+{
+    display: flex;
+    width: 300px;
+    min-height: 200px;
+    background-color: white;
+    margin: auto;
+    z-index: 10000;
+    position: absolute;
+}
+
+#alert-box-message span
+{
+    color: black;
+}

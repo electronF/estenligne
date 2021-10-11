@@ -1,0 +1,12 @@
+.homepage-body
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+
+    flex: 1 0 auto;
+    height: 0%;
+    position: relative;
+    z-index: 100;
+}

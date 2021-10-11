@@ -1,0 +1,60 @@
+.TaggedMessage
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 100%;
+    border-radius: .5em;
+    height: auto;
+}
+
+.TaggedMessage > div
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-left: 5px solid green;
+    flex: 1 0 auto;
+    width: 0%;
+    padding: .5em;
+    box-sizing: content-box;
+}
+
+.TaggedMessage > img
+{
+    width: 50px;
+    height: 100%;
+    border-radius: 0 .5em .5em 0;
+    align-self: center;
+}
+
+.TaggedMessage > div .user-name
+{
+    font-size: .8em;
+    color: green; 
+}
+
+.TaggedMessage > div .description
+{
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: .25em 0;
+}
+
+.TaggedMessage > div .description img
+{
+    width: 20px;
+    height: 20px;
+    margin: auto 0;
+}
+
+.TaggedMessage > div .description span
+{
+    margin: auto 0 auto 5px;
+    font-size: .8em;
+    color: gray;
+    font-weight: bold;
+}

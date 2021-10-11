@@ -1,0 +1,123 @@
+.userprofile-form
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.userprofile-form > *
+{
+    margin-top: 0.5rem;
+}
+
+
+.userprofile-form textarea
+{
+    border: 1px solid black;
+    border-radius: 5px;
+    min-height: 50px;
+    max-height: 50px;
+}
+
+.userprofile-form .userprofile-image
+{
+    position: relative;
+    background-color: rgb(200, 200, 200);
+    background-size: 100px 100px;
+    width: 250px;
+    height: 250px;
+    border-radius: 125px;
+    border: 2px solid rgba(230, 230, 230, 1);
+    display: flex;
+    align-self: center;
+}
+
+.userprofile-form .userprofile-image div
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 80%;
+    margin: auto;
+}
+
+.userprofile-form .userprofile-image div img
+{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    border: 1px solid rgb(255, 255, 255);
+    opacity: 0.5;
+    border-radius: 5px;
+    align-content: center;
+    align-self: center;
+}
+
+.userprofile-form .userprofile-image div img:hover
+{
+    opacity: 1;
+}
+
+.userprofile-form .userprofile-image .userprofile-image-option
+{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    border-radius: 12px;
+
+    position: absolute;
+    bottom: 10px;
+    left: 40%;
+}
+
+.userprofile-form .userprofile-image .userprofile-image-option span
+{
+    color: white;
+    border-bottom: 1px solid gray;
+    padding: .5em 1em;
+    cursor: default;
+}
+
+.userprofile-form .userprofile-image .userprofile-image-option span:hover
+{
+    color: rgb(210, 210, 210);
+    /* letter-spacing: 2px; */
+}
+
+.userprofile-form .userprofile-image .userprofile-image-option span:last-child
+{
+    border-bottom: none;
+}
+
+
+@media screen and (min-width: 0px) and (max-width:400px) {
+    .userprofile-form .userprofile-image
+    {
+        width: 150px;
+        height: 150px;
+        border-radius: 75px;
+        background-color: green;
+    }
+}
+
+@media screen and (min-width:800px) and (min-width:1199px)
+{
+    .userprofile-form .userprofile-image
+    {
+        width: 200px;
+        height: 200px;
+        border-radius: 100px;
+        background-color: red;
+    }
+} 
+
+@media screen and (min-width:1200px)
+{
+    .userprofile-form .userprofile-image
+    {
+        width: 250px;
+        height: 250px;
+        border-radius: 125px;
+        background-color: yellow;
+    }
+} 

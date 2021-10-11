@@ -1,0 +1,161 @@
+.prev-message
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: .25em;
+    border-radius: .35em;
+    position: relative;
+}
+
+.prev-message .sending-information
+{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+
+.incoming-message
+{
+    align-self: flex-start;
+    background-color: #d3d3d3;
+}
+
+.outgoing-message
+{
+    align-self: flex-end;
+    background-color: #d8effe;   
+}
+
+.prev-message .send-datetime
+{
+    align-self: center;
+    align-content: center;
+    font-size: 0.75em;
+    font-weight: 500;
+}
+.prev-message .send-image
+{
+    display: flex;
+    align-self: center;
+    width: 25px;
+    height: 25px;
+    margin-left: 0.25em;
+}
+
+.prev-message .send-image img
+{
+    margin: auto;
+    height: 20px;
+}
+
+.prev-message > div:first-child
+{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+}
+
+.prev-message > div:first-child > span
+{
+    margin-top: auto;
+    margin-left: auto;
+    padding-right: 5px;
+    align-self: center;
+    -webkit-text-security: disc;
+    font-size: 18px;
+    cursor: default;
+    position: absolute;
+    right: 10px;
+    top: 5px;
+}
+
+.prev-message > div:first-child > span:hover
+{
+    color: rgb(150, 150, 150);
+}
+
+
+.prev-message .prev-message-option
+{
+    display: none;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: white;
+    width: 100px;
+    border-radius: .25em;
+    position: absolute;
+    right: 0;
+    top: 25px;
+    border: 1px solid rgba(100, 100, 100, 1);
+    box-shadow: 0 0 3px 1px gray;
+}
+
+.prev-message .prev-message-option span
+{
+    padding: .2em .5em;
+    text-align: center;
+    /* border-bottom: 1px solid rgb(200, 200, 200); */
+    cursor: default;
+}
+
+.prev-message .prev-message-option span:hover
+{
+    background-color: rgb(230, 230, 230);
+    font-weight: 400;
+}
+
+.prev-message .prev-message-option span:last-child
+{
+    border-bottom: none;
+}
+
+.prev-message .prev-message-option span:first-child
+{
+    border-radius: .5em .5em 0 0;
+}
+
+.prev-message .prev-message-option span:last-child
+{
+    border-radius: 0 0 .5em .5em;
+}
+
+.prev-message > div:last-child
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.prev-message > div:last-child .prev-message-content
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.prev-message > div:last-child .prev-message-content > span
+{
+    font-size: .9em;
+    padding: .5em;
+    margin-top: .25em;
+    margin-bottom: .25em;
+    border-radius: .5em;
+}
+
+.incoming-message-text
+{   
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.outgoing-message-text
+{
+    /* rgba(135, 206, 235, .2) */
+    background-color:rgb(238, 248, 255);
+}
+
+.prev-message > div:last-child .prev-message-content .short-message
+{
+    color: black;
+    font-size: .8em;
+}
